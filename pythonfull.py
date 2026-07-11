@@ -58,3 +58,48 @@ k="Arav"
 # to print para
 # print('''arav
 # he is too good''')
+
+# # to print para in reverse
+# print('''arav
+# he is too good''')
+
+#for print no 1 to 10
+
+# for i in range(0, 11):
+#     print(i)
+
+
+# # for 10 to 1
+# for i in range(10,0,-1):
+#     print(i)
+
+# to print all even no 1 to 100
+# for i in range(2,101):
+#     if i%2==0:
+#         print(i)
+
+# #  to print od no 1 to 100
+# for i in range(1,101):
+#     if(i%2!=0):
+#         print(i)
+
+
+# factorial of a no
+# n=int(input("enter a no"))
+# fact=1;
+# for i in range(1,n,1 ):
+#     fact=fact*i;
+
+# print(fact)
+
+
+# to print table
+
+# for i in range(0,71,7):
+#     print(i) 
+
+# or 
+# n=int(input("enter a no"))
+# for i in range (1,11):
+#     print(n*i)
+#     print('\n')
