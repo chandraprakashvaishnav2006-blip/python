@@ -31,8 +31,8 @@
 # print(a)
 
 
-# slicing of string
-k="Arav"
+# # slicing of string
+# k="Arav"
 
 # to print index 0
 # print(k[0]) 
@@ -103,3 +103,60 @@ k="Arav"
 # for i in range (1,11):
 #     print(n*i)
 #     print('\n')
+
+# while loop
+# i=1
+# while i<=5:
+#     print(i)
+#     i=i+1
+
+
+# type casting
+# a=int(input("enter a no"))
+# print(float(a))
+# print(type(a))
+# print(bool(a))
+
+
+
+# # to print all prime numbers up to the entered number 
+# no = int(input("enter a no: "))
+
+# if no <= 1:
+#     print("no prime numbers")
+# else:
+#     print("prime numbers between 2 and", no, ":")
+#     for num in range(2, no + 1):
+#         for i in range(2, num):
+#             if num % i == 0:
+#                 break
+#         else:
+#             print(num)
+
+
+
+# bit wise operator
+# a=10
+# d=12
+# b=a>>2
+# c=a<<2
+# e=0&5
+# f=0|0
+# print(b)            
+# print(c)
+# print(bool(e))
+# print(bool(f))
+
+
+# special operator
+# identity is
+# a=5 is 66
+# print(a)
+# is not
+# a=6 is not 6
+# print(a)
+
+# membership in and not in
+a="arav"
+print('a'in a)
+print("y"not in a)
