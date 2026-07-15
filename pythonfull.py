@@ -156,7 +156,7 @@
 # a=6 is not 6
 # print(a)
 
-# membership in and not in
-a="arav"
-print('a'in a)
-print("y"not in a)
+# # membership in and not in
+# a="arav"
+# print('a'in a)
+# print("y"not in a)
