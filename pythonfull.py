@@ -160,3 +160,115 @@
 # a="arav"
 # print('a'in a)
 # print("y"not in a)
+
+
+
+# # demonstrate the inbuilt data type list tupule set dictionary 
+# a=[1,'arya']
+# print(type(a))
+
+# b=(1,'arya')
+# print(type(b))
+
+# c={1,'arya'}
+# print(type(c))
+
+# d={1:'arya'}
+# print(type(d))
+
+
+
+# examine all arithmetic operator
+# a=int(input("enter a no"))
+# b=int(input("enter a no 2"))
+# print("add",a+b)
+# print("sub",a-b)
+# print("mul",a*b)
+# print("div",a/b)
+# print("mod",a%b)
+# print("power",a**b)
+
+
+
+# wap to find largest of two numbers 
+# a=int(input("enter a no"))
+# b=int(input("enter a no 2"))
+# c= a if a>b else b
+# print("largest no is",c)
+
+
+
+# wap to find largest of 3 no
+
+# a=int(input("enter a no"))
+# b=int(input("enter a no 2"))
+# c=int(input("enter a no 3"))
+
+# if( a>b and a>c):
+#     print("a is largest ",a)
+# elif(b>a and b>c):
+#     print("largest no is b",b)    
+# else:
+#     print("c is largest ",c)    
+
+
+
+
+
+# compute distance b/w two point
+# import math as m
+# x1=int(input("enter a no x1 "))
+# x2=int(input("enter a no x2 "))
+# y1=int(input("enter a no y1 "))
+# y2=int(input("enter a no y2 "))
+
+# d=pow((x2-x1),2)+pow((y2-y1),2) 
+# print("distance is " ,m.sqrt(d))
+
+
+
+
+
+
+# area of circle
+
+# r=int(input("enter a no"))
+# pi=3.14
+# area=pi*r*r
+# print("area of circle is ",area)
+
+
+
+
+
+
+
+
+# wap to check year is leap or not 
+# year=int(input("enter year"))
+# if(year%400==0)or(year%4==0 and year%100!=0):
+#     print("leap year")
+# else:
+#     print("not leap year")
+
+
+
+# swap 2 no using assignment operator
+# x1=int(input("enter a no"))
+# x2=int(input("enter a no 2"))
+# print("before swap values" ,x1,x2)
+# x1,x2=x2,x1
+# print("after swap values" ,x1,x2)
+
+
+
+
+# demonstrate all bit wise operator
+# a=int(input("enter a no"))
+# b=int(input("enter a no 2"))
+# print(a & b)
+# print(a | b)
+# print(a^b)
+# print(a<<2)
+# print(a>>2)
+
