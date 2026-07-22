@@ -297,3 +297,89 @@
 #     print(i)
 #     i-=1
 
+
+
+
+
+# wap to check no for +ve,-ve and  0
+# a=int(input("enter a no"))
+# if(a>0):
+#     print("positive")
+# elif(a<0):
+#     print("negative")
+# else :
+#     print("no is 0")        
+
+
+
+# wap to calculate electricity bill
+# a=int(input("enter no of unit"))
+# sum1=0
+# sum2=0
+# sum3=0
+# for i in range(1,a+1):
+#     if(i<=100):
+#         sum1=sum1+5
+#     elif(i<=200):
+#         sum2=sum2+7
+#     else:
+#         sum3=sum3+10
+
+
+# total=sum1+sum2+sum3  
+# print(total)
+
+
+
+
+# # roll the dice game
+# import random as r
+# print("welcome to roll the dice game ")
+# print("if u want to play tap y or n ")
+# a=input("enter your choice")
+
+# b=r.randint(0,6)
+
+# if(a=='y'):
+#     print("choosing the no")
+#     c=int(input(" now u can choose a no between 1 to 6"))
+#     if(c==b):
+#         print("you won")
+#         print("number choose by computer",b)
+#         print("thanks for playing")
+#     else:
+#        print("you lost")
+#        print("number choose by computer",b)
+#        print("thanks for playing")
+# else :
+#     print("choose y to play") 
+
+
+
+
+# wap to take single digit no from keyboard and print its english word
+# a=int(input("enter a no between 0 to 9"))
+# if(a==1):
+#     print("one")
+# elif(a==2):
+#     print("two")
+# elif(a==3):
+#     print("three")
+# elif(a==4):
+#     print("four")
+# elif(a==5):
+#     print("five")
+# elif(a==6):
+#     print("six")
+# elif(a==7):
+#     print("seven")
+# elif(a==8):
+#     print("eight")
+# elif(a==9):
+#     print("nine")
+# else:
+#     print("invalid no")
+
+
+   
+    
