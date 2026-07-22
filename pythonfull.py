@@ -333,10 +333,11 @@
 
 
 # # roll the dice game
-# import random as r
+
 # print("welcome to roll the dice game ")
 # print("if u want to play tap y or n ")
 # a=input("enter your choice")
+# import random as r
 
 # b=r.randint(0,6)
 
