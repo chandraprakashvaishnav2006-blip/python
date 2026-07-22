@@ -246,7 +246,7 @@
 
 # wap to check year is leap or not 
 # year=int(input("enter year"))
-# if(year%400==0)or(year%4==0 and year%100!=0):
+# if((year%4==0) and (year%100!=0)):
 #     print("leap year")
 # else:
 #     print("not leap year")
@@ -271,4 +271,29 @@
 # print(a^b)
 # print(a<<2)
 # print(a>>2)
+
+
+
+# wap to for check inn range 1 of 100
+
+# a=int(input("enter a no"))
+# if (a in range(0,101)):
+#     print("a")
+# else:
+#     print("try again")    
+
+
+# wap to enter name with index
+# a=input("enter name")
+# for i in range(0,len(a)):
+#     print(a[i],"=",i)
+
+
+# while loop
+# a=int(input("enter a no"))
+# i=10
+# while(i!=0):
+    
+#     print(i)
+#     i-=1
 
