@@ -382,5 +382,32 @@
 #     print("invalid no")
 
 
-   
+
+# basic of operation
+# a=input("enter a word")
+# b=input("enter word 2")
+# c=a+b
+# print(c)  
+# print(len(c)) 
+# d=c.lower()
+# e=c.upper()
+# f=c.capitalize()
+# print(d)
+# print(e)
+# print(f)
+
+# str replace
+a=input("enter a word")
+b=input("enter word 2")
+c=a+b
+print(c)  
+d=str.replace(c,"a","b")
+print(d)
+e=['a','b']
+e.append('c')
+print(e)
+
+
+
+
     
