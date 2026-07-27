@@ -397,16 +397,19 @@
 # print(f)
 
 # str replace
-a=input("enter a word")
-b=input("enter word 2")
-c=a+b
-print(c)  
-d=str.replace(c,"a","b")
-print(d)
-e=['a','b']
-e.append('c')
-print(e)
+# a=input("enter a word")
+# b=input("enter word 2")
+# c=a+b
+# print(c)  
+# d=str.replace(c,"a","b")
+# print(d)
+# e=['a','b']
+# e.append('c')
+# print(e)
 
+
+
+print("hello world")
 
 
 
