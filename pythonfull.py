@@ -409,8 +409,26 @@
 
 
 
-print("hello world")
+
+#  to print hollow rectangle 
+# n = int(input("enter no: "))
+# for i in range(n):
+#     for j in range(n):
+#         if (i == 0 or i == n - 1 or j == 0 or j == n - 1):
+#             print("*", end="")
+#         else:
+#             print(" ", end="")
+#     print()
+               
 
 
-
+# to print 2 vertical parallel lines
+n = int(input("enter no: "))
+for i in range(n):
+    for j in range(n):
+        if(j==1 or j==n-1):
+            print("*",end="")
+        else:
+            print(" ",end="")
+    print()                
     

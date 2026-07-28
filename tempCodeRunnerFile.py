@@ -1,4 +1,1 @@
-("enter a no"))
-pi=3.14
-area=pi*r*r
-print("area of circle is ",area)
+# Temporary file created by Code Runner.
