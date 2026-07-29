@@ -1,6 +1,8 @@
-enter a no"))
-# col=int(input("enter a no"))
-# for i in range(row):
-#     for j in range(col):
-#         print("*",end="")
-#     print("\n")
+
+for i in range (1,10): 
+    
+    for j in range(i):
+        print(" ",end="")       
+    for j in range(2*(9-i)-1):
+        print("*",end="")
+    print("\n")    
