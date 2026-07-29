@@ -479,3 +479,68 @@
 
 
 
+# to practice loops 
+
+# print * in one line
+# n=int(input("enter a no"))
+# for i in range(n):
+#     print("*",end="")
+
+
+# to print * in multiple line
+# n=int(input("enter a no"))
+# for i in range(n):
+#     print("*",end="")
+#     print("\n")
+
+
+# to print sq using *
+# n=int(input("enter a no"))
+# for i in range(n):
+#     for j in range(n):
+#      print("*",end="\t")
+#     print("\n")
+# print()
+
+
+#  to print hollow square
+# n=int(input("enter a no"))
+# for i in range(n):
+#     for j in range(n):
+#      if(i==0 or i==n-1 or j==0 or j==n-1):
+#         print("*",end="")
+#      else:
+#         print(" ",end="")
+#     print()
+ 
+
+ 
+# to print rectangle
+# row=int(input("enter a no"))
+# col=int(input("enter a no"))
+# for i in range(row):
+#     for j in range(col):
+#         print("*",end="")
+#     print("\n")
+
+
+
+#   hollow rectangle
+# row=int(input("enter a no"))
+# col=int(input("enter a no"))
+# for i in range(row):
+#     for j in range(col):
+#         if(i==0 or i== row-1 or j==0 or j== col-1):
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print("\n")
+
+
+#  to print pyramid
+for i in range (1,5):
+    for j in range(1,5-i):
+        print(" ",end="")    
+    for j in range((2*i)-1):
+        print("*",end="")
+    print("\n")    
