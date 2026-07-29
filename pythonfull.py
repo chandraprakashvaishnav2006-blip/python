@@ -423,12 +423,59 @@
 
 
 # to print 2 vertical parallel lines
-n = int(input("enter no: "))
-for i in range(n):
-    for j in range(n):
-        if(j==1 or j==n-1):
-            print("*",end="")
-        else:
-            print(" ",end="")
-    print()                
+# n = int(input("enter no: "))
+# for i in range(n):
+#     for j in range(n):
+#         if(j==1 or j==n-1):
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print()                
     
+
+# 10 to 1 in reverse order
+# for i in range(10,0,-1):
+#     print(i)
+
+
+# to search element in list
+# a=[1,2,"arya","arav"]
+# search = input("enter element to search: ")
+
+# for item in a:
+#     if str(item) == search:
+#         print("item found")
+#         break
+#     else:
+#         print("item not found")
+#         break
+
+
+
+
+# to print all positive in a list using continue
+# a=[1,2,4,5,-2,3,-5,-6]
+# for i in range(len(a)):
+#     if(a[i]>0):
+#          print(a[i])
+#          continue
+   
+
+# to print all even no between 1 to 100 using while loop
+# i=1
+# while(i!=101):
+#     if(i%2==0):
+#         print(i)
+#     i+=1    
+
+
+
+# cube of no 1 to 10 
+# i=1
+# while(i!=11):
+#     print(i*i*i)
+#     i+=1
+
+
+
+
