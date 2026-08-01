@@ -670,3 +670,44 @@
 #     print()
 
 
+#  wap to give grade to student based on marks
+# marks = int(input("enter the marks: "))
+# if marks >= 90:
+#     print("Grade: A")       
+# elif marks >= 80:
+#     print("Grade: B")       
+# elif marks >= 70:           
+#     print("Grade: C")       
+# elif marks >= 60:   
+#     print("Grade: D")
+# else:   
+#     print("Grade: F")
+
+
+#  wap to make atm simulation
+# print("Welcome to the ATM Simulation")
+# print("Please insert your card and enter your PIN.")
+# a=input("enter your card and write 'yes' to continue ")
+# if(a=='yes'):
+#     b=int(input("enter your pin "))
+#     if(b==1234):
+#         print("Enter the amount you want to withdraw")
+#         c=int(input("enter the amount"))
+#         if(c<=10000):
+#             print("Please take your cash")
+#             print("Thank you for using the ATM Simulation")
+#         else:
+#             print("Insufficient balance")
+#             print("recharge your account")
+#     else:
+#         print("Invalid PIN")
+#         print("retry again")
+# else:
+#     print("Invalid card") 
+#     print("retry again")  
+
+
+
+
+
+
