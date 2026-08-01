@@ -555,3 +555,118 @@
 #     for j in range(2*(9-i)-1):
 #         print("*",end="")
 #     print("\n")    
+
+
+#  to print reverse pyramid
+# for i in range (1,5):
+#     for j in range(1,5-i):
+#         print(" ",end="")    
+#     for j in range((2*i)-1):
+#         print("*",end="")
+#     print("\n")  
+    
+#     for j in range(i):
+#         print(" ",end="")       
+#     for j in range(2*(9-i)-1):
+#         print("*",end="")
+#     print("\n")    
+
+
+
+#  wap to print both diagonal of sq matrix
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if(i==j or i+j==n+1):
+#             print("*",end="")
+#         else:
+#             print(" ",end="")
+#     print("\n")
+
+
+
+# wap to print plus pattern
+# n=int(input("enter a no"))
+# for  i in range (1,n+1):
+#     for j in range(1,n+1):
+#         if (i==(n//2)+1 or j==(n//2)+1):
+#             print("*",end='')
+#         else:
+#             print(" ",end='')
+#     print()            
+
+
+# wap to print star pattern right triangle
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,i+1):
+#         print("*",end='')
+#     print()
+
+# #  wap to print star pattern right triangle in reverse
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,n-i):
+#         print("*",end='')
+#     print()
+
+
+
+# wap to print hollow triangle
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,i):
+#         if(j==1 or j==i-1 or i==n):
+#          print("*",end='')
+#         else:
+#            print(" ",end='') 
+#     print()
+
+
+# wap to print revese hollow triangle
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,n-i):
+#         if(j==1 or i==1 or j==n-i-1):
+#             print("*",end='')
+#         else:
+#             print(" ",end='')    
+#     print()
+
+
+# wap to print to vertical parallel lines
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if(j==1 or j==n):
+#          print("*",end='')
+#         else:
+#             print(" ",end='') 
+
+#     print()
+
+
+
+# wap to print two horizontal parallel lines
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if(i==1 or i==n):
+#             print("*",end='')
+#         else:
+#             print(" ",end='')
+#     print()
+
+
+
+#  wap to print hollow square
+# n=int(input("enter a no"))
+# for i in range(1,n+1):
+#     for j in range(1,n+1):
+#         if(i==1 or i==n or j==1 or j==n):
+#          print("*",end='')
+#         else:
+#          print(" ",end='') 
+#     print()
+
+
