@@ -68,4 +68,94 @@
 # else:
 #     print("Invalid operator")
 
+# to print all string function
+# a="hello world"
+# print(len(a))
+# print(a.upper())
+# print(a.lower())
+# print(a.strip())
+# print(a.replace("world", "universe"))
+# print(a.split())
+# print(a.find("world"))
+# print(a.capitalize())
+# print(a.replace("hello","hi"))
+# print(a.count("l"))
+# print(a.title())
+# print(a.startswith ("hello"))
+# print(a.endswith("world"))
+# print(a[0])
 
+
+# multiline string
+# a=""" heloo world"""
+# for characters in a:
+#     print(characters)
+
+# for item in a:
+#     print(item)    
+
+
+# question
+# nm="arnav"
+# print(nm[-4:-2])
+ 
+
+#  slicing in python
+# a="arav"
+# print(a[:])
+# print(a[:6])
+# print(a[:1])
+# print(a[::-1])
+# print(a[-1:-5:-1])
+
+
+# center fn
+# a="hello"
+# print(a.center(20," "))
+# print(a.center(20,"*"))
+
+
+# if else in py
+# # q1
+# a=int(input("enter a no"))
+# print("value of a is", a)
+# if(a>18):
+#     print("eligible for vote")
+# else:
+#     print("not eligible for vote")    
+
+
+# greet user with respect to time
+# import time
+# t=time.strftime("%H")
+# d=(int(t))
+# print("time is ",d)
+# print(type(d))
+# if(d<12):
+#     print("good morning")
+# elif(d>12 and d<17):
+#     print("good afternoon")
+
+# elif(d>17 and d<19):  
+#     print("good evening")     
+
+# elif(d>19):
+#     print("good night")
+
+
+
+# match case code in python
+print("1.addition\n2.subtraction\n3.multiplication\n4.division")
+a=int(input("enter your case"))
+
+b=int(input("enter first number"))
+c=int(input("enter second number"))
+match a:
+    case 1:
+        print("add",b+c)
+    case 2:
+        print("sub",b-c)    
+    case 3:
+        print("mul",b*c)
+    case 4:
+        print("div",b/c)    
