@@ -145,17 +145,17 @@
 
 
 # match case code in python
-print("1.addition\n2.subtraction\n3.multiplication\n4.division")
-a=int(input("enter your case"))
+# print("1.addition\n2.subtraction\n3.multiplication\n4.division")
+# a=int(input("enter your case"))
 
-b=int(input("enter first number"))
-c=int(input("enter second number"))
-match a:
-    case 1:
-        print("add",b+c)
-    case 2:
-        print("sub",b-c)    
-    case 3:
-        print("mul",b*c)
-    case 4:
-        print("div",b/c)    
+# b=int(input("enter first number"))
+# c=int(input("enter second number"))
+# match a:
+#     case 1:
+#         print("add",b+c)
+#     case 2:
+#         print("sub",b-c)    
+#     case 3:
+#         print("mul",b*c)
+#     case 4:
+#         print("div",b/c)    
