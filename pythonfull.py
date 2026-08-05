@@ -735,4 +735,115 @@
 
 
 
-# 
+# function practice
+# def add(a,b):
+#     return a+b
+# x=int(input("enter a no"))
+# y=int(input("enter a no 2"))    
+# result = add(x,y)
+# print(result)
+
+
+# print heloo from fn
+# def greet(name):
+#     print("hello ",name)
+
+# a=input("enter your name")
+# greet(a)
+
+
+
+# return square of a no 
+# def sq(a):
+#     return a*a
+# x=int(input("enter a no"))
+# print("square is ",sq(x) )
+
+
+# to return  multiple vlaues
+# def calc(a,b):
+#     add=a+b
+#     sub=a-b
+#     mul=a*b
+#     div=a/b
+#     return add,sub,mul,div
+
+# w,x,y,z=calc(10,5)
+# print(w,x,y,z)    
+
+
+# positional argument
+# def sub(a,b):
+#     print(a-b)
+# sub(20,10)
+# sub(10,20)
+
+
+# keyword argument
+# def sub(a,b):
+#     print(a-b)
+# sub(b=5,a=10)
+# sub(a=10,b=5)    
+
+
+# default argument
+# def wish(a="abhinav"):
+#     print("hello",a)
+# wish()
+# wish("arav")
+# note: default argument should be at last in function definition if we are using positional argument and keyword argument in same function call
+ 
+
+# wap to find factorial of a no using return
+# wap to check the given no is even and odd using return
+# wap to cal area of rectangle
+# wap to cal simple intrest
+# wap to cal electicity bill by taking default argument of prize =6 rupee per unit and taking no of unit as input from user
+
+
+
+
+# q1
+# def fact(n):
+#     fact=1
+#     for i in range(1,n+1):
+#         fact=fact*i
+#     return fact
+# n=int(input("enter a no"))
+# print("factorial of ",n,"is ",fact(n))
+
+
+# q2
+# def check(a):
+#     if  a%2==0:
+#         return "even"
+#     else:
+#         return "odd"
+# a=int(input("enter a no"))
+# print("no is ",check(a))
+
+
+
+# q3
+# def area(l,b):
+#     print("area of rectangle is ",l*b)
+# l=int(input("enter a length"))
+# b=int(input("enter a breadth"))
+# area(l,b)    
+
+
+# q4
+# def sim(p,r,t):
+#     print("simple intrest =",(p*r*t)/100)
+# p=float(input("enter a no"))
+# r=float(input("enter a no"))
+# t=float(input("enter a no"))    
+# sim(p,r,t)    
+
+# q5
+# def bill(u,p=6):
+#     print("bill is ",u*p)
+# u=float(input("enter unit consumed"))
+# p=float(input("enter prize"))
+# bill(u)
+# bill(u,p)
