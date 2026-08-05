@@ -498,9 +498,8 @@
 # n=int(input("enter a no"))
 # for i in range(n):
 #     for j in range(n):
-#      print("*",end="\t")
-#     print("\n")
-# print()
+#      print("*",end="")
+#     print()
 
 
 #  to print hollow square
@@ -847,3 +846,50 @@
 # p=float(input("enter prize"))
 # bill(u)
 # bill(u,p)
+
+
+
+# to print reverse of string
+# a="abhinav"
+# print(a[::-1])
+# print(len(a))
+
+# for i in range (len(a)-1,-1,-1):
+#     print(a[i],end='')
+
+
+
+# to count no 
+# def count(a):
+#     ct=0
+    
+#     while(a>0):
+#         a=a//10
+#         ct+=1
+#     print(ct)    
+
+# a=int(input("enter a no"))
+# count(a)
+
+
+
+# function that reverse of a number
+# def reverse(num): 
+#     rem=0
+#     rev=0
+
+#     while(num>0):
+#         rem=num%10
+#         rev=rev*10+rem
+#         num=num//10
+#     return rev
+
+# k=int(input("enter a no"))
+# print(reverse(k))     
+
+
+
+
+ 
+
+
