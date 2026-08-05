@@ -159,3 +159,109 @@
 #         print("mul",b*c)
 #     case 4:
 #         print("div",b/c)    
+
+
+# for loop ex
+# for i in range(1,11):
+#     print(i)
+
+
+# while loop ex
+# i=1
+# while(i<=5):
+#     print(i)
+#     i=i+1
+
+
+# len fn uses in loops
+# name="python"
+# for i in range(len(name)):
+#     print(name[i])
+
+
+# enumerate() fn ex
+# fruits=['apple','banana','cherry']
+# for index,fruit in enumerate(fruits):
+#     print(index,fruit)
+
+
+# zip fn ex
+# a=["ram","shyam"]
+# b=[90,95]
+# for i,j in zip(a,b):
+#     print(i,j)
+
+
+# reversed fn
+# for i in reversed(range(5)):
+#     print(i)
+
+
+# sorting of list
+# numbers = [5, 2, 4, 1]
+
+# for i in sorted(numbers):
+#     print(i)
+
+
+# for code ex
+# a="arav"
+# for i in reversed(a):
+#     print(i)
+
+
+# more ex
+# a=[1,2,3,4,5]
+# for i in a:
+#     print(i)
+
+
+# while code ex
+# i=1
+# while(i<=5):
+#     a=int(input("enter a no"))
+#     print(a)
+#     i+=1
+
+
+# ex 2
+# a=5
+# while(a>0):
+#     print(a)
+#     a-=1
+# else:
+#     print("no is less than 0")f
+
+# emulate do while 
+# i= 0
+# while True:
+#     print(i)
+#     i = i + 1
+#     if(i%100 == 0):
+#         break
+
+
+# argument of fn
+ 
+
+# positional argument
+# def sub(a,b):
+#     print(a-b)
+# sub(20,10)
+# sub(10,20)
+
+
+# keyword argument
+# def sub(a,b):
+#     print(a-b)
+# sub(b=5,a=10)
+# sub(a=10,b=5)    
+
+
+# default argument
+# def wish(a="abhinav"):
+#     print("hello",a)
+# wish()
+# wish("arav")
+# note: default argument should be at last in function definition if we are using positional argument and keyword argument in same function call
+ 
