@@ -888,8 +888,32 @@
 # print(reverse(k))     
 
 
+# to give variable no of argument 
+# def calc(*n):
+#     print(n)
+
+# calc()
+# calc(10)
+# calc(1,2,3,4,5)
+  
 
 
- 
+# wap to print sum of variable no of argument as tuple
+# def add (*n):
+#     sum=0
+#     for i in n:
+#         sum+=i
+#     print("sum is ",sum)
 
 
+# add(1,2,3,4,5)
+
+
+
+# wap to print variable no of argument in dictionary
+def add (**n):
+    
+    print(n)
+
+
+add(name="alice",age=10)
