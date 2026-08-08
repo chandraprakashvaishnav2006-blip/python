@@ -911,9 +911,21 @@
 
 
 # wap to print variable no of argument in dictionary
-def add (**n):
+# def add (**n):
     
-    print(n)
+#     print(n)
 
 
-add(name="alice",age=10)
+# add(name="alice",age=10)
+
+
+
+
+# def add (**n):
+    
+#     print(n)
+
+
+# add(name="alice",age=10)
+
+# add(name="bob",age=15)
