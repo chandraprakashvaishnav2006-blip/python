@@ -928,4 +928,22 @@
 
 # add(name="alice",age=10)
 
-# add(name="bob",age=15)
+# add(name="bob",age=15) 
+
+
+
+
+
+
+# wap to find max no using variable no of argument
+# def max(*r):
+#     no=0
+#     for i in r:
+#         if(i>no):
+#             no=i
+#     print(no)        
+
+
+# max(1,2,3,4,5)
+
+# print ("hello")
