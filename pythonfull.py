@@ -947,3 +947,35 @@
 # max(1,2,3,4,5)
 
 # print ("hello")
+
+
+
+
+
+
+
+# file handling
+
+# f = open('arya.txt','r')
+# print(f.read())
+# f.close()
+
+
+# f=open("arya.txt",'a')
+# f.write("vaishnav")
+# f.close()
+
+
+# f=open("arya.txt",'r')
+# line=0
+# while f.readline():
+#     line+=1
+# print(line)    
+
+
+f = open("arya.txt",'r')
+content=f.read()
+
+f=open("student.txt",'w')
+f.write(content)
+f.close()
