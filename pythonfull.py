@@ -973,9 +973,21 @@
 # print(line)    
 
 
-f = open("arya.txt",'r')
-content=f.read()
+# f = open("arya.txt",'r')
+# content=f.read()
 
-f=open("student.txt",'w')
-f.write(content)
-f.close()
+# f=open("student.txt",'w')
+# f.write(content)
+# f.close()
+
+
+
+# f=open("arya.txt",'r')
+# print(f.read())
+
+
+# f=open("arya.txt",'r')
+# line=0
+# while f.readline():
+#     line+=1
+# print(line)    
