@@ -990,4 +990,12 @@
 # line=0
 # while f.readline():
 #     line+=1
-# print(line)    
+# print(line)
+# 
+# 
+
+# f=open("abhi.txt",'r')
+# print(f.read())    
+
+
+
