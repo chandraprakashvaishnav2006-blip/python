@@ -998,8 +998,12 @@
 # print(f.read())    
 
 
-f=open("abhi.txt",'r')
-print(f.read())
+# f=open("abhi.txt",'r')
+# print(f.read())
 
-
+f=open("pythonfull.py",'r')
+content=f.read()
+f=open("abhi.txt",'w')
+f.write(content)
+f.close()
 
