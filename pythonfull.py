@@ -998,4 +998,8 @@
 # print(f.read())    
 
 
+f=open("abhi.txt",'r')
+print(f.read())
+
+
 
