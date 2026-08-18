@@ -1009,7 +1009,14 @@
 
 
 
-print("hello time changing")
-print("nxt world opening")
+# print("hello time changing")
+# print("nxt world opening")
 
 
+
+
+
+# import random as r
+# k='no:'
+# for i in range(5):
+#    print(r.randint(1,10))
