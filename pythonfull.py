@@ -1020,3 +1020,68 @@
 # k='no:'
 # for i in range(5):
 #    print(r.randint(1,10))
+
+
+
+# import pickle as p
+# f=open("abc.dat",'bw')
+# l=[10,11,12,13,14,15,16,17]
+# p.dump(l,f)
+# f.close()
+
+
+
+# f=open("abc.dat",'br')
+# d1=p.load(f)
+# print(d1)
+
+
+# f=open("mg.jpeg",'br')
+# d1=p.load(f)
+# print(d1)
+
+
+# wap to generate a random pass of 6character length where 1,3,5 th position is alfabet and 2,4,6 are digit 
+# import random as r
+# l=['a4b5c6','d4e7f8','g7h8k9']
+# print(r.choice(l))
+
+
+# import random as r
+# passlen=int(input("enter password length"))
+# l=['a','b','c','d']
+# for i in range(1,passlen):
+#     if(i%2==0):
+#         print(r.randint(1,9) ,end=' ')
+#     elif(i%2==1):
+#         print(r.choice(l),end=' ')
+
+
+import random as r
+name=['akash','abhi','arav','asur']
+print("employee name:",end='')
+print(r.choice(name),end='')
+print()
+empno=['e-1234','e-4567','e-3848','e-7737']
+print("employee id:",end='')
+print(r.choice(empno),end='')
+print()
+city=['delhi','bhilwara','up','sirohi']
+print("employee city:",end='')
+print(r.choice(city),end='')
+print()
+desi=['hr','team leader','core member','frontend developer','manager']
+print("employee designation:",end='')
+print(r.choice(desi),end='')
+print()
+
+
+print('mobile:',end='')
+print(r.randint(6,9),end='')
+for i in range (1,10):
+   print(r.randint(0,9),end='')
+print()
+
+print('salary:',end='')
+for i in range(1,9):
+    print(r.randint(1,9),end='')
