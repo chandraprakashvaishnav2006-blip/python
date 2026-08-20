@@ -1057,31 +1057,35 @@
 #         print(r.choice(l),end=' ')
 
 
-import random as r
-name=['akash','abhi','arav','asur']
-print("employee name:",end='')
-print(r.choice(name),end='')
-print()
-empno=['e-1234','e-4567','e-3848','e-7737']
-print("employee id:",end='')
-print(r.choice(empno),end='')
-print()
-city=['delhi','bhilwara','up','sirohi']
-print("employee city:",end='')
-print(r.choice(city),end='')
-print()
-desi=['hr','team leader','core member','frontend developer','manager']
-print("employee designation:",end='')
-print(r.choice(desi),end='')
-print()
+# import random as r
+# name=['akash','abhi','arav','asur']
+# print("employee name:",end='')
+# print(r.choice(name),end='')
+# print()
+# empno=['e-1234','e-4567','e-3848','e-7737']
+# print("employee id:",end='')
+# print(r.choice(empno),end='')
+# print()
+# city=['delhi','bhilwara','up','sirohi']
+# print("employee city:",end='')
+# print(r.choice(city),end='')
+# print()
+# desi=['hr','team leader','core member','frontend developer','manager']
+# print("employee designation:",end='')
+# print(r.choice(desi),end='')
+# print()
 
 
-print('mobile:',end='')
-print(r.randint(6,9),end='')
-for i in range (1,10):
-   print(r.randint(0,9),end='')
-print()
+# print('mobile:',end='')
+# print(r.randint(6,9),end='')
+# for i in range (1,10):
+#    print(r.randint(0,9),end='')
+# print()
 
-print('salary:',end='')
-for i in range(1,9):
-    print(r.randint(1,9),end='')
+# print('salary:',end='')
+# for i in range(1,9):
+#     print(r.randint(1,9),end='')
+
+    
+f=open('mg.jpeg','br')
+   
