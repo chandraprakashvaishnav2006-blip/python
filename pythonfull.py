@@ -1189,3 +1189,91 @@
 
 
 
+# import math as m
+# print(m.sqrt(9))
+# print(m.pow(2,3))
+# print(m.factorial(5))
+
+
+
+
+
+
+# import time as t
+# # print(t.ctime())
+# print(t.strftime("%H:%M:%S"))
+
+
+
+# import time
+
+# print("Hello")
+# time.sleep(5)
+# print("After 5 seconds")
+
+
+# import os
+
+# print(os.getcwd())
+# print(os.listdir())
+
+
+
+# import statistics
+
+# marks = [70, 80, 90, 85, 75]
+
+# print(statistics.mean(marks))
+# print(statistics.median(marks))
+
+
+
+
+# import sys
+
+# print(sys.version)
+# print(sys.platform)
+
+
+
+# import calendar as c
+# print(c.month(2026, 3))
+
+
+
+# import string
+# a=string.ascii_letters
+# print(a)
+
+
+# import getpass
+# password = getpass.getpass("Enter password: ")
+# print(password)
+
+
+
+
+# import webbrowser
+# webbrowser.open("https://google.com")
+
+
+
+
+# import json
+
+# data = '{"name": "Abhi", "age": 20}'
+
+# x = json.loads(data)
+
+# print(x["name"])
+# print(x["age"])
+
+
+
+import re
+
+text = "My number is 9876543210"
+
+x = re.findall("[0-9]+", text)
+
+print(x)
