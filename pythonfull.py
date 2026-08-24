@@ -1270,10 +1270,104 @@
 
 
 
-import re
+# import re
 
-text = "My number is 9876543210"
+# text = "My number is 9876543210"
 
-x = re.findall("[0-9]+", text)
+# x = re.findall("[0-9]+", text)
 
-print(x)
+# print(x)
+
+
+
+
+# from collections import Counter
+
+# data = ["apple", "banana", "apple", "mango", "apple"]
+
+# print(Counter(data))
+
+
+
+# import itertools
+
+# items = ["A", "B", "C"]
+
+# print(list(itertools.combinations(items, 2)))
+
+
+
+
+# import uuid
+
+# print(uuid.uuid4())
+
+
+# import hashlib
+
+# text = "hello"
+
+# x = hashlib.sha256(text.encode())
+# print(x.hexdigest())
+
+
+
+# from cryptography.fernet import Fernet
+
+# key = Fernet.generate_key()
+# f = Fernet(key)
+
+# text = "hello"
+
+# encrypted = f.encrypt(text.encode())
+# print(encrypted)
+
+# decrypted = f.decrypt(encrypted).decode()
+# print(decrypted)
+
+
+
+# import textwrap
+
+# text = "Python is a very easy programming language"
+
+# print(textwrap.fill(text, 10))
+
+
+
+# from decimal import Decimal
+
+# a = Decimal("0.1")
+# b = Decimal("0.2")
+
+# print(a + b)
+
+
+# import requests
+
+# url = "https://api.github.com"
+
+# data = requests.get(url)
+
+# print(data.status_code)
+
+
+
+# from pathlib import Path
+
+# file = Path("arya.txt")
+
+# print(file.exists())
+
+
+
+# print("ramkishan hello ")
+
+
+# import pyttsx3
+
+# engine = pyttsx3.init()
+# engine.say("Hello sir , how can i help you")
+# engine.runAndWait()
+
+
