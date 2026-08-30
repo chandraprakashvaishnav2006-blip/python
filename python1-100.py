@@ -265,3 +265,9 @@
 # wish("arav")
 # note: default argument should be at last in function definition if we are using positional argument and keyword argument in same function call
  
+
+
+import calendar as c
+year=int(input  ("enter year"))
+month=int(input("enter month"))
+print(c.month(year,month))
