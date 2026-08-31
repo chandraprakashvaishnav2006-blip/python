@@ -267,7 +267,9 @@
  
 
 
-import calendar as c
-year=int(input  ("enter year"))
-month=int(input("enter month"))
-print(c.month(year,month))
+# import calendar as c
+# year=int(input  ("enter year"))
+# month=int(input("enter month"))
+# print(c.month(year,month))
+
+# day 1
