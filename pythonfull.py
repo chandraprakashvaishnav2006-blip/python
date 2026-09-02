@@ -1374,4 +1374,57 @@
 
 
 
-print("hello world")
+# print("hello world")
+
+
+# class display:
+#     def __init__(self):
+#         print("name : Arav")
+#         print("age : 20")
+#         print("branch : cse")
+#         print("roll no : 20")
+
+
+#     def area(self, l, b):
+#         print("area of rectangle is ",l*b)    
+
+# obj=display()
+# obj.area(10,20)
+
+# class area:
+#     def __init__(self,l,b):
+       
+#         print("area of rectangle is ",l*b)
+# obj=area(10,20)        
+
+
+
+class movie:
+    def __init__(self, title, actor, actress, year):
+        self.title = title
+        self.actor = actor
+        self.actress = actress
+        self.year = year
+
+    def display(self, title, actor, actress, year):
+        print("movie name is", self.title)
+        print("movie actor is", self.actor)
+        print("movie actress is", self.actress)
+        print("movie year is", self.year)
+
+
+movies = []
+
+for i in range(5):
+    title = input("enter movie name")
+    actor = input("enter movie actor")
+    actress = input("enter movie actress")
+    year = input("enter movie year")
+    print("\n")
+    movies.append(movie(title, actor, actress, year))
+
+for movie in movies:
+    movie.display(title, actor, actress, year)
+    print()
+
+print([movie.title for movie in movies])

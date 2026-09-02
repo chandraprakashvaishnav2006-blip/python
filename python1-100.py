@@ -277,9 +277,15 @@
 
 
 
-f=open('nayan.txt','a+')
-f.write(' hello world how are you \n')
-f.close
-f=open('nayan.txt','r')
-print(f.read())
-f.close()
+# f=open('nayan.txt','a+')
+# f.write(' hello world how are you \n')
+# f.close
+# f=open('nayan.txt','r')
+# print(f.read())
+# f.close()
+
+
+
+
+
+
