@@ -1399,35 +1399,116 @@
 
 
 
-class movie:
-    def __init__(self, title, actor, actress, year):
-        self.title = title
-        self.actor = actor
-        self.actress = actress
-        self.year = year
+# class movie:
+#     def __init__(self, title, actor, actress, year):
+#         self.title = title
+#         self.actor = actor
+#         self.actress = actress
+#         self.year = year
 
-    def display(self, title, actor, actress, year):
-        print("movie name is", self.title)
-        print("movie actor is", self.actor)
-        print("movie actress is", self.actress)
-        print("movie year is", self.year)
-
-
-movies = []
-
-for i in range(5):
-    title = input("enter movie name")
-    actor = input("enter movie actor")
-    actress = input("enter movie actress")
-    year = input("enter movie year")
-    print("\n")
-    movies.append(movie(title, actor, actress, year))
-
-for movie in movies:
-    movie.display(title, actor, actress, year)
-    print()
-
-print([movie.title for movie in movies])
+#     def display(self, title, actor, actress, year):
+#         print("movie name is", self.title)
+#         print("movie actor is", self.actor)
+#         print("movie actress is", self.actress)
+#         print("movie year is", self.year)
 
 
-print ("hel")
+# movies = []
+
+# for i in range(5):
+#     title = input("enter movie name")
+#     actor = input("enter movie actor")
+#     actress = input("enter movie actress")
+#     year = input("enter movie year")
+#     print("\n")
+#     movies.append(movie(title, actor, actress, year))
+
+# for movie in movies:
+#     movie.display(title, actor, actress, year)
+#     print()
+
+# print([movie.title for movie in movies])
+
+
+# print ("hel")
+
+
+
+# class a:
+#     def __init__(self,a,b):
+#         r=a*b
+#         print(r)
+
+
+# c=a
+# c(5,6)
+
+
+
+# class o:
+#      def __init__(self):
+#        print("outer class")
+
+#      class i:
+#         def __init__(self):
+#             print("inner class")
+#         def m1(self):
+#             print("hello")
+# a=o()
+# b=o.i()
+
+
+
+# class university:
+#     def __init__(self):
+#         print("RTU UNIVERSITY")
+#     class college:
+#         def __init__(self):
+#             print("ACEIT")
+
+#         class department:
+
+#              def __init__(self):
+#                 print("computer science")
+
+# a=university()
+# b=university.college()
+# c=university.college.department()
+
+
+
+
+# class shopping:
+#     def gen_bill(p,q,r):
+#         print(f"hello {p}{q}{r}")
+#         def calc_amt(p):
+#             print(f"calc_amt{p}")
+#         def calc_dis(q):
+#             print(f"calc_discount{q}")
+#         def final(r):
+#             print(f"final_amt{r}")        
+
+# a=shopping
+# a.gen_bill(2,3,3)
+
+
+
+class A:
+    def __init__(self):
+        self.c = [[0 for _ in range(3)] for _ in range(3)]
+
+    def jurd(self, n):
+        for i in range(n):
+            for j in range(n):
+                self.c[i][j] = int(input(f"Enter a number ({i+1}, {j+1}): "))
+        print()
+        for row in self.c:
+            for val in row:
+                print(val, end=' ')
+            print()
+        print()
+
+
+obj = A()
+obj.jurd(3)
+
