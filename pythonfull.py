@@ -1493,22 +1493,32 @@
 
 
 
-class A:
-    def __init__(self):
-        self.c = [[0 for _ in range(3)] for _ in range(3)]
+# class A:
+#     def __init__(self):
+#         self.c = [[0 for _ in range(3)] for _ in range(3)]
 
-    def jurd(self, n):
-        for i in range(n):
-            for j in range(n):
-                self.c[i][j] = int(input(f"Enter a number ({i+1}, {j+1}): "))
-        print()
-        for row in self.c:
-            for val in row:
-                print(val, end=' ')
-            print()
-        print()
+#     def jurd(self, n):
+#         for i in range(n):
+#             for j in range(n):
+#                 self.c[i][j] = int(input(f"Enter a number ({i+1}, {j+1}): "))
+#         print()
+#         for row in self.c:
+#             for val in row:
+#                 print(val, end=' ')
+#             print()
+#         print()
 
 
-obj = A()
-obj.jurd(3)
+# obj = A()
+# obj.jurd(3)
 
+
+
+
+
+
+
+
+f=open("abhi.txt",'a')
+f.write("tasklist /FI IMAGENAME eq processname.exe")
+f.close()
