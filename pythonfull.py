@@ -1519,6 +1519,13 @@
 
 
 
-f=open("abhi.txt",'a')
-f.write("tasklist /FI IMAGENAME eq processname.exe")
+# f=open("abhi.txt",'a')
+# f.write("tasklist /FI IMAGENAME eq processname.exe")
+# f.close()
+
+
+
+
+f=open("arya.txt",'a')
+f.write("hello duniya")
 f.close()
