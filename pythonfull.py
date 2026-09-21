@@ -1526,6 +1526,18 @@
 
 
 
-f=open("arya.txt",'a')
-f.write("hello duniya")
+# f=open("arya.txt",'a')
+# f.write("hello duniya")
+# f.close()
+
+
+
+
+
+
+
+
+
+f=open("abhi.txt",'a')
+f.write('lorem*0')
 f.close()
