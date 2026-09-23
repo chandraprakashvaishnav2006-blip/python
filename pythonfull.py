@@ -1538,6 +1538,15 @@
 
 
 
-f=open("abhi.txt",'a')
-f.write('lorem*0')
-f.close()
+# f=open("abhi.txt",'a')
+# f.write('lorem*0')
+# f.close()
+
+# import random as r
+# print(r.randrange(1,11,2))
+
+
+
+x="10"
+y="20"
+print(x+y)
